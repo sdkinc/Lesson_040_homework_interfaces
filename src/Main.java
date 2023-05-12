@@ -11,8 +11,8 @@ public class Main {
     System.out.println(superman + " and " + superman.swim());
     System.out.println("============");
     Human forest = new Human("soldier Forrest Gump!");
-    System.out.print(forest + forest.run()+"\n");
-    System.out.print(forest + forest.swim()+"\n");
+    System.out.print(forest + forest.run() + "\n");
+    System.out.print(forest + forest.swim() + "\n");
     System.out.println("============");
     Duck duck = new Duck("Duck, Scrooge Duck!");
     System.out.println(duck + " and " + duck.fly());

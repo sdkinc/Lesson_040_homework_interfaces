@@ -16,7 +16,7 @@ public class Airplane implements CanFly, CanSwim {
 
   @Override
   public String toString() {
-    return "It's " + name;
+    return "It's " + getName();
   }
 
   @Override

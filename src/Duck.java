@@ -16,7 +16,7 @@ public class Duck implements CanFly, CanRun, CanSwim {
 
   @Override
   public String toString() {
-    return "I`m " + name;
+    return "I`m " + getName();
   }
 
   @Override
