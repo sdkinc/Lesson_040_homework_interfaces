@@ -1,3 +1,8 @@
+package characters;
+
+import interfaces.CanRun;
+import interfaces.CanSwim;
+
 public class Human implements CanRun, CanSwim {
 
   private String name;

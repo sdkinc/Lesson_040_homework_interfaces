@@ -1,4 +1,8 @@
-public class Penguin implements CanRun, CanSwim {
+package characters;
+
+import interfaces.Mega;
+
+public class Penguin implements Mega {
 
   private String name;
 
@@ -27,5 +31,15 @@ public class Penguin implements CanRun, CanSwim {
   @Override
   public String swim() {
     return "i swim very fast, sir!";
+  }
+
+  @Override
+  public String fly() {
+    return "I Fly!!!!!!!!!!";
+  }
+
+  @Override
+  public String send() {
+    return "I SEND!!!";
   }
 }

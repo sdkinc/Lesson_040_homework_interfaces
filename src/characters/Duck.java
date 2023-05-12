@@ -1,8 +1,14 @@
-public class Superman implements CanFly, CanRun, CanSwim {
+package characters;
+
+import interfaces.CanFly;
+import interfaces.CanRun;
+import interfaces.CanSwim;
+
+public class Duck implements CanFly, CanRun, CanSwim {
 
   private String name;
 
-  public Superman(String name) {
+  public Duck(String name) {
     this.name = name;
   }
 

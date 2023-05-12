@@ -1,9 +1,10 @@
-public interface CanFly {
+package interfaces;
+
+public interface CanSwim {
 
   /*
   Напишите интерфейсы "Умеет летать" CanFly с методом fly(), "Умеет бегать" CanRun с методом
   run и "умеет плавать" CanSwim с методом swim и реализуйте их в классе "Супермен" Superman.
    */
-  String fly();
-
+  String swim();
 }

@@ -1,3 +1,8 @@
+package characters;
+
+import interfaces.CanFly;
+import interfaces.CanSwim;
+
 public class Airplane implements CanFly, CanSwim {
 
   private String name;

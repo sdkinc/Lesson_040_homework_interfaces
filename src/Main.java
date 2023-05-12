@@ -1,3 +1,6 @@
+import characters.*;
+import interfaces.CanFly;
+
 public class Main {
 
     /*
@@ -11,6 +14,7 @@ public class Main {
         System.out.println(superman + " and " + superman.swim());
         System.out.println("============");
 
+        CanFly fyableObject = superman;
         Human forest = new Human("soldier Forrest Gump!");
         System.out.print(forest + forest.run() + "\n");
         System.out.print(forest + forest.swim() + "\n");
@@ -25,6 +29,8 @@ public class Main {
         Penguin penguin = new Penguin("Kovalski, sir!");
         System.out.println(penguin + " and " + penguin.run());
         System.out.println(penguin + " and " + penguin.swim());
+        System.out.println(penguin.send());
+        System.out.println(penguin.fly());
         System.out.println("============");
 
         Airplane airplane = new Airplane("F-14 «Tomcat»!");
